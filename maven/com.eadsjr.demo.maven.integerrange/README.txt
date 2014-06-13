@@ -1,0 +1,1 @@
+This is an example of a simple maven project. An implementation of IntegerRange that stores its constituents in a small memory representation. Some functional tests will execute when the main class is run.
