@@ -1,0 +1,1 @@
+This is an example of a simple maven project. This will be a collection of methods intended for working with Strings. Some functional tests will execute when the main class is run.
