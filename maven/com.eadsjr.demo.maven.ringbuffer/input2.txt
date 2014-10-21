@@ -1,0 +1,4 @@
+A 1
+There can be only -1
+R 2
+Q

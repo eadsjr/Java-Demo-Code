@@ -1,0 +1,4 @@
+\.DS_Store
+/maven/com.eadsjr.demo.maven.stringplay/target/
+/maven/com.eadsjr.demo.maven.integerrange/target/
+/maven/com.eadsjr.demo.maven.ringbuffer/target/
