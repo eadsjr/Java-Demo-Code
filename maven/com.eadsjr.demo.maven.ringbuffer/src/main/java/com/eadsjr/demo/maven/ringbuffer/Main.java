@@ -123,6 +123,14 @@ public class Main {
         try {
             int count = Integer.parseInt(command.substring(1).trim());
         
+            if(count < 0) {
+                throw new InvalidInputException(
+                    String.format(
+                        "Expected a positive integer value @ line %d!" +
+                                    " Malformed input file.",
+                            lineCount));                
+            }
+            
             ArrayList<String> values = new ArrayList<String>();
             for(int i = 0; i < count; i++) {
                 if(!reader.hasNextLine()) throw new InvalidInputException(

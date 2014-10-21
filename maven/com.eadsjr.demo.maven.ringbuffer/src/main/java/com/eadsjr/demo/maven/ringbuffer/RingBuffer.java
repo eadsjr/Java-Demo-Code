@@ -169,7 +169,7 @@ public class RingBuffer {
             nextLink = nextLink.getNextElement();
         }
         while( !nextLink.getNextElement().equals(myFirstLink) );
-        logger.debug("toString result: {}", values);
+        logger.debug("toString result: \n***\n{}***\n", values);
         return values;
     }
     
